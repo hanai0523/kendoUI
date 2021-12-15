@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace kendoUI
 {
-    public partial class menu : Form
+    public partial class Player_form : Form
     {
-        public menu()
+        public Player_form()
         {
             InitializeComponent();
-        }
-
-        private void button_player_Click(object sender, EventArgs e)
-        {
-            us_player_list.Show();
         }
     }
 }
