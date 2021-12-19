@@ -230,23 +230,23 @@
   <data name="&gt;&gt;btn_submit.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <metadata name="player_name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="player_name.HeaderText" xml:space="preserve">
+  <data name="name.HeaderText" xml:space="preserve">
     <value>名前</value>
   </data>
   <metadata name="player_years.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="player_years.HeaderText" xml:space="preserve">
-    <value>歳</value>
+    <value>年齢</value>
   </data>
   <metadata name="player_rank.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="player_rank.HeaderText" xml:space="preserve">
-    <value>段位</value>
+    <value>段位・級位</value>
   </data>
   <metadata name="btn_edit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -552,10 +552,10 @@
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>800, 450</value>
   </data>
-  <data name="&gt;&gt;player_name.Name" xml:space="preserve">
-    <value>player_name</value>
+  <data name="&gt;&gt;name.Name" xml:space="preserve">
+    <value>name</value>
   </data>
-  <data name="&gt;&gt;player_name.Type" xml:space="preserve">
+  <data name="&gt;&gt;name.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;player_years.Name" xml:space="preserve">

@@ -45,7 +45,7 @@
             this.textBox_search_rank = new System.Windows.Forms.TextBox();
             this.textBox_serch_years = new System.Windows.Forms.TextBox();
             this.textBox_search_name = new System.Windows.Forms.TextBox();
-            this.player_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.player_years = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.player_rank = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_edit = new System.Windows.Forms.DataGridViewButtonColumn();
@@ -87,7 +87,7 @@
             this.dgv_player.AllowUserToAddRows = false;
             this.dgv_player.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_player.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.player_name,
+            this.name,
             this.player_years,
             this.player_rank,
             this.btn_edit,
@@ -150,10 +150,10 @@
             resources.ApplyResources(this.textBox_search_name, "textBox_search_name");
             this.textBox_search_name.Name = "textBox_search_name";
             // 
-            // player_name
+            // name
             // 
-            resources.ApplyResources(this.player_name, "player_name");
-            this.player_name.Name = "player_name";
+            resources.ApplyResources(this.name, "name");
+            this.name.Name = "name";
             // 
             // player_years
             // 
@@ -199,6 +199,7 @@
             this.Controls.Add(this.lbl_name);
             this.Controls.Add(this.btn_back);
             this.Name = "Us_player_list";
+            this.Load += new System.EventHandler(this.Us_player_list_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_player)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -223,7 +224,7 @@
         private System.Windows.Forms.TextBox textBox_search_rank;
         private System.Windows.Forms.TextBox textBox_serch_years;
         private System.Windows.Forms.TextBox textBox_search_name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn player_name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn player_years;
         private System.Windows.Forms.DataGridViewTextBoxColumn player_rank;
         private System.Windows.Forms.DataGridViewButtonColumn btn_edit;

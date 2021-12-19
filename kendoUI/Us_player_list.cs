@@ -90,5 +90,10 @@ namespace kendoUI
                 editting_row = -1;
             }
         }
+
+        private void Us_player_list_Load(object sender, EventArgs e)
+        {
+            dgv_player.DataSource = Dbctl.searchPlayers();
+        }
     }
 }
