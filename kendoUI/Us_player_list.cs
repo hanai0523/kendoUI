@@ -26,8 +26,13 @@ namespace kendoUI
         {
             this.Hide();
         }
-        
 
+        /// <summary>
+        /// 選手登録ボタンを押したときの処理
+        /// </summary>
+        /// <remarks>わっしょい</remarks>
+        /// <param name="sender">sender</param>
+        /// <param name="e">event</param>
         private void btn_submit_Click(object sender, EventArgs e)
         {
             //登録ボタンを押したときにデータベースに追加し、検索をかける
