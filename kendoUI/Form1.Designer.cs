@@ -46,6 +46,7 @@
             // 
             // button_game
             // 
+            this.button_game.Enabled = false;
             this.button_game.Location = new System.Drawing.Point(200, 230);
             this.button_game.Name = "button_game";
             this.button_game.Size = new System.Drawing.Size(150, 90);
@@ -55,6 +56,7 @@
             // 
             // button_organization
             // 
+            this.button_organization.Enabled = false;
             this.button_organization.Location = new System.Drawing.Point(440, 230);
             this.button_organization.Name = "button_organization";
             this.button_organization.Size = new System.Drawing.Size(150, 90);
@@ -64,7 +66,7 @@
             // 
             // us_player_list
             // 
-            this.us_player_list.Location = new System.Drawing.Point(0, 0);
+            this.us_player_list.Location = new System.Drawing.Point(-1, -1);
             this.us_player_list.Name = "us_player_list";
             this.us_player_list.Size = new System.Drawing.Size(800, 450);
             this.us_player_list.TabIndex = 3;

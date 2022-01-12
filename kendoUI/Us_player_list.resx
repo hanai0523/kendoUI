@@ -233,33 +233,21 @@
   <metadata name="name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="name.HeaderText" xml:space="preserve">
-    <value>名前</value>
-  </data>
-  <metadata name="player_years.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="rowId.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="player_years.HeaderText" xml:space="preserve">
-    <value>年齢</value>
-  </data>
-  <metadata name="player_rank.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="year.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="player_rank.HeaderText" xml:space="preserve">
-    <value>段位・級位</value>
-  </data>
+  <metadata name="rank.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="btn_edit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="btn_edit.HeaderText" xml:space="preserve">
-    <value />
-  </data>
   <metadata name="btn_delete.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="btn_delete.HeaderText" xml:space="preserve">
-    <value />
-  </data>
   <data name="dgv_player.Location" type="System.Drawing.Point, System.Drawing">
     <value>110, 100</value>
   </data>
@@ -543,6 +531,45 @@
   <data name="&gt;&gt;textBox_search_name.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <metadata name="name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="name.HeaderText" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <metadata name="rowId.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="rowId.HeaderText" xml:space="preserve">
+    <value>rowId</value>
+  </data>
+  <data name="rowId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="year.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="year.HeaderText" xml:space="preserve">
+    <value>誕生年</value>
+  </data>
+  <metadata name="rank.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="rank.HeaderText" xml:space="preserve">
+    <value>段位・級位</value>
+  </data>
+  <metadata name="btn_edit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btn_edit.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <metadata name="btn_delete.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btn_delete.HeaderText" xml:space="preserve">
+    <value />
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -558,16 +585,22 @@
   <data name="&gt;&gt;name.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;player_years.Name" xml:space="preserve">
-    <value>player_years</value>
+  <data name="&gt;&gt;rowId.Name" xml:space="preserve">
+    <value>rowId</value>
   </data>
-  <data name="&gt;&gt;player_years.Type" xml:space="preserve">
+  <data name="&gt;&gt;rowId.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;player_rank.Name" xml:space="preserve">
-    <value>player_rank</value>
+  <data name="&gt;&gt;year.Name" xml:space="preserve">
+    <value>year</value>
   </data>
-  <data name="&gt;&gt;player_rank.Type" xml:space="preserve">
+  <data name="&gt;&gt;year.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rank.Name" xml:space="preserve">
+    <value>rank</value>
+  </data>
+  <data name="&gt;&gt;rank.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btn_edit.Name" xml:space="preserve">

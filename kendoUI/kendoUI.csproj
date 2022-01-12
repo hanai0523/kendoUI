@@ -82,36 +82,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl2.Designer.cs">
-      <DependentUpon>UserControl2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl3.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl3.Designer.cs">
-      <DependentUpon>UserControl3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl4.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl4.Designer.cs">
-      <DependentUpon>UserControl4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl5.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl5.Designer.cs">
-      <DependentUpon>UserControl5.cs</DependentUpon>
-    </Compile>
     <Compile Include="Us_player_list.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -133,15 +103,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControl1.resx">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl2.resx">
-      <DependentUpon>UserControl2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl5.resx">
-      <DependentUpon>UserControl5.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Us_player_list.is.resx">
       <DependentUpon>Us_player_list.cs</DependentUpon>
     </EmbeddedResource>

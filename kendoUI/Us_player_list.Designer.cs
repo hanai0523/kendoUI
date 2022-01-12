@@ -46,8 +46,9 @@
             this.textBox_serch_years = new System.Windows.Forms.TextBox();
             this.textBox_search_name = new System.Windows.Forms.TextBox();
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.player_years = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.player_rank = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rowId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.year = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rank = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_edit = new System.Windows.Forms.DataGridViewButtonColumn();
             this.btn_delete = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_player)).BeginInit();
@@ -88,8 +89,9 @@
             this.dgv_player.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_player.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.name,
-            this.player_years,
-            this.player_rank,
+            this.rowId,
+            this.year,
+            this.rank,
             this.btn_edit,
             this.btn_delete});
             resources.ApplyResources(this.dgv_player, "dgv_player");
@@ -149,21 +151,32 @@
             // 
             resources.ApplyResources(this.textBox_search_name, "textBox_search_name");
             this.textBox_search_name.Name = "textBox_search_name";
+            this.textBox_search_name.TextChanged += new System.EventHandler(this.textBox_search_name_TextChanged);
             // 
             // name
             // 
+            this.name.DataPropertyName = "name";
             resources.ApplyResources(this.name, "name");
             this.name.Name = "name";
             // 
-            // player_years
+            // rowId
             // 
-            resources.ApplyResources(this.player_years, "player_years");
-            this.player_years.Name = "player_years";
+            this.rowId.DataPropertyName = "rowId";
+            resources.ApplyResources(this.rowId, "rowId");
+            this.rowId.Name = "rowId";
+            this.rowId.ReadOnly = true;
             // 
-            // player_rank
+            // year
             // 
-            resources.ApplyResources(this.player_rank, "player_rank");
-            this.player_rank.Name = "player_rank";
+            this.year.DataPropertyName = "birth";
+            resources.ApplyResources(this.year, "year");
+            this.year.Name = "year";
+            // 
+            // rank
+            // 
+            this.rank.DataPropertyName = "rank";
+            resources.ApplyResources(this.rank, "rank");
+            this.rank.Name = "rank";
             // 
             // btn_edit
             // 
@@ -225,8 +238,9 @@
         private System.Windows.Forms.TextBox textBox_serch_years;
         private System.Windows.Forms.TextBox textBox_search_name;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn player_years;
-        private System.Windows.Forms.DataGridViewTextBoxColumn player_rank;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rowId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn year;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rank;
         private System.Windows.Forms.DataGridViewButtonColumn btn_edit;
         private System.Windows.Forms.DataGridViewButtonColumn btn_delete;
     }
